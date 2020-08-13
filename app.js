@@ -1,13 +1,10 @@
 const api_key = 'dummy JWT Auth Token Get Yours at www.developer.clashroyale.com';
-// let result = [];
-// const api_key1 = api_key.replace(/(\r\n|\n|\r)/gm, "");
 
-// const api = 'https://api.clashroyale.com/v1/cards';
 
 document.querySelector('.formhook').addEventListener('submit' ,getProfile);
 
 function getProfile(e){
-    // let tag = '';
+
     e.preventDefault();
     let tag = e.target.firstElementChild.children[0].value ;
     console.log(tag);
@@ -35,18 +32,13 @@ function displayError1(){
 let sendReq = (tag) => {
     let url = 'https://api.clashroyale.com/v1/players/';
     let token = api_key;
-    let endPoint = tag;
     url = url + '%23' + tag;
     let h = new Headers({
              "Accept": "application/json",
              "authorization": `Bearer ${token}`
-            //  'Access-Control-Allow-Origin': 'http://127.0.0.1:55000'
+           
         });
-    // let h = new Headers();
-    // h.append('Accept', 'application/json');
-    // h.append('authorization', `Bearer ${token}`);
-    // h.append("Access-Control-Allow-Origin", "*");
-
+   
     let req = new Request(url, {
         method: 'GET',
         mode: 'cors',
@@ -55,7 +47,7 @@ let sendReq = (tag) => {
     fetch(req)
         .then(resp => resp.json())
         .then(data => {
-            // console.log(data);
+          
             let result = data;
             updatePage(result);
         })
@@ -93,7 +85,7 @@ function updatePage(res){
     tbody.appendChild(row);
 
 }
-// console.log(result);
+
 
 
 
