@@ -7,7 +7,7 @@ Update:
 Implemented Clash Royale API with Vanilla JS
 
 How to Use : 
-1- Get your own jwt token from the official developer website of clash royale www.developer.clashroyale.com
+1- Get your own jwt token from the official developer website of clash royale https://developer.clashroyale.com/#/
 2- Replace the dummy key value of 'api_key' in app.js with your new key from the official website
 3- Recent chrome Updates have made it impossible to hit API auth requests with browser because of the new CORS policy
 4- A workaround would be to use an all security stripped instance of chrome purely for dev/testing purpose

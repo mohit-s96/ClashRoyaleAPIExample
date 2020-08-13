@@ -1,4 +1,4 @@
-const api_key = 'dummy JWT Auth Token Get Yours at www.developer.clashroyale.com';
+const api_key = 'dummy JWT Auth Token Get Yours at https://developer.clashroyale.com/#/';
 
 
 document.querySelector('.formhook').addEventListener('submit' ,getProfile);
