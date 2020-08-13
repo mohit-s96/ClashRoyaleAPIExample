@@ -1,4 +1,4 @@
-const api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjFmYzk4Njg5LTQ5ZTQtNGNiMC1iMDM4LTNkNGJmMmQ2YWY1ZCIsImlhdCI6MTU5NzM0MDUzNCwic3ViIjoiZGV2ZWxvcGVyLzgxZTQ5YWM0LWM4YzYtOGMyMi03ODZkLTYyMDM2OWIzOTY0OSIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyI0Ny44LjI0Ni42MSJdLCJ0eXBlIjoiY2xpZW50In1dfQ.-gDpcvOvnj0BgTKutFCWNqNFBqiF0iZ6e9tzOXW-wOxN7UaQjThEnLYmmuYp8lM29jl7hOxtyZ3dGSSsTZ14NQ';
+const api_key = 'dummy JWT Auth Token Get Yours at www.developer.clashroyale.com';
 // let result = [];
 // const api_key1 = api_key.replace(/(\r\n|\n|\r)/gm, "");
 
