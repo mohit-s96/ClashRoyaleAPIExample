@@ -4,7 +4,7 @@ body, ul, li, h1, h2, a{
 } 
 @font-face{
     font-family: supercell;
-    src: url(/fonts/Supercell-Magic_5.ttf);
+    src: url(fonts/Supercell-Magic_5.ttf);
 }
 header{
     background-color: #dd2727;
